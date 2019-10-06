@@ -1,15 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using BinaryTree;
+using System.Collections.Generic;
 
 namespace _101_SymmetricTree
 {
-    internal class TreeNode
-    {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-        public TreeNode(int x) { val = x; }
-    }
-
     internal class Solution
     {
         public bool IsSymmetric(TreeNode root)

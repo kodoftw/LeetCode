@@ -1,19 +1,8 @@
-﻿using System.Collections.Generic;
+﻿using BinaryTree;
+using System.Collections.Generic;
 
 namespace _437_PathSumIII
 {
-    internal class TreeNode
-    {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-
-        public TreeNode(int x)
-        {
-            val = x;
-        }
-    }
-
     internal class Solution
     {
         private IDictionary<int, int> PartialPathSum = new Dictionary<int, int>();

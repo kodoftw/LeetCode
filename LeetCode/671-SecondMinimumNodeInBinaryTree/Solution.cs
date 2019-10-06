@@ -1,19 +1,8 @@
-﻿using System;
+﻿using BinaryTree;
+using System;
 
 namespace _671_SecondMinimumNodeInBinaryTree
-{
-    internal class TreeNode
-    {
-        public int val;
-        public TreeNode left;
-        public TreeNode right;
-
-        public TreeNode(int x)
-        {
-            val = x;
-        }
-    }
- 
+{ 
     internal class Solution
     {
         public int FindSecondMinimumValue(TreeNode root)
