@@ -1,19 +1,9 @@
-﻿namespace _206_ReverseLinkedList
+﻿using LinkedList;
+
+namespace _206_ReverseLinkedList
 {
-    internal class ListNode
-    {
-        public int val;
-        public ListNode next;
-
-        public ListNode(int x)
-        {
-            val = x;
-        }
-    }
-
     internal class Solution
     {
-
         public ListNode ReverseList(ListNode head)
         {
             return ReverseListAux(head, null);

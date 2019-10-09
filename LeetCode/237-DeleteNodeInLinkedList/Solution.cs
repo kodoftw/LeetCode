@@ -1,16 +1,7 @@
-﻿namespace _237_DeleteNodeInLinkedList
+﻿using LinkedList;
+
+namespace _237_DeleteNodeInLinkedList
 {
-    internal class ListNode
-    {
-        public int val;
-        public ListNode next;
-
-        public ListNode(int x)
-        {
-            val = x;
-        }
-    }
-
     internal class Solution
     {
         public void DeleteNode(ListNode node)

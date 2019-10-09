@@ -1,15 +1,7 @@
-﻿namespace _83_RemoveDuplicatesFromSortedList
-{
-    public class ListNode
-    {
-        public int val;
-        public ListNode next;
+﻿using LinkedList;
 
-        public ListNode(int x)
-        {
-            val = x;
-        }
-    }
+namespace _83_RemoveDuplicatesFromSortedList
+{
  
     internal class Solution
     {
